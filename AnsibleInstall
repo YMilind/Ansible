@@ -1,4 +1,8 @@
 # https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-ansible-on-centos-7
 # To get Ansible for CentOS 7, first ensure that the CentOS 7 EPEL repository is installed:
 yum install epel-release
-https://www.youtube.com/watch?v=79xFyOc_eEY
+#https://www.youtube.com/watch?v=79xFyOc_eEY
+#install rmp(this is hard to find)
+ rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+ 
+ yum install ansible
